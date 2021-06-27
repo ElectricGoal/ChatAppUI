@@ -248,27 +248,4 @@ Widget _buildMessage(Message message, bool isMe) {
         );
 }
 
-/*
 
-Container(
-    margin: isMe == true
-        ? EdgeInsets.only(left: 70, top: 10, bottom: 10, right: 10)
-        : EdgeInsets.only(right: 70, top: 10, bottom: 10, left: 30),
-    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-    decoration: BoxDecoration(
-        color: Colors.black12,
-        borderRadius: isMe == true
-            ? BorderRadius.only(
-                topLeft: Radius.circular(40.0),
-                bottomLeft: Radius.circular(40.0),
-                topRight: Radius.circular(40.0),
-              )
-            : BorderRadius.only(
-                topRight: Radius.circular(40.0),
-                topLeft: Radius.circular(40.0),
-                bottomRight: Radius.circular(40.0),
-              )),
-    child: Text(message.text!),
-  );
-
-*/
