@@ -12,14 +12,6 @@ class Message {
   });
 }
 
-/*
-final User currentUser = User(
-  id: 0,
-  name: 'Current User',
-  imageUrl: 'assets/images/greg.jpg',
-);
-*/
-
 // USERS
 
 final User garbet = User(
@@ -58,7 +50,7 @@ final User oto = User(
   imageUrl: 'assets/images/oto.jpg',
 );
 
-// FAVORITE CONTACTS
+// QUICK CONTACTS
 List<User> quicks = [cherish, steven, oto, sunny, garbet, shiba];
 
 // EXAMPLE CHATS ON HOME SCREEN
