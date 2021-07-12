@@ -50,7 +50,7 @@ final User oto = User(
   imageUrl: 'assets/images/oto.jpg',
 );
 
-// FAVORITE CONTACTS
+// QUICK CONTACTS
 List<User> quicks = [cherish, steven, oto, sunny, garbet, shiba];
 
 // EXAMPLE CHATS ON HOME SCREEN
